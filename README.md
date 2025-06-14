@@ -1,13 +1,13 @@
 
 ````markdown
-# 🧠 Real-Time Slack-integrated Retrieval-Augmented Generation (RAG) System
+ 🧠 Real-Time Slack-integrated Retrieval-Augmented Generation (RAG) System
 
 This project is a real-time, production-level RAG system designed to **learn from live Slack chats**, store them in a **local SQLite database**, and **respond instantly** to user queries within Slack channels.
 It uses **semantic search** with **FAISS** and **SentenceTransformers**, a **CrossEncoder reranker**, and **TinyLLaMA** for final response generation — all deployed locally in a resource-efficient Docker container.
 
 ---
 
-## 🚀 Features
+ 🚀 Features
 
 - ✅ Real-time chat ingestion from specified Slack channels
 - 🔍 Semantic and fuzzy search with CrossEncoder reranking
@@ -19,7 +19,7 @@ It uses **semantic search** with **FAISS** and **SentenceTransformers**, a **Cro
 
 ---
 
-## 🧩 Project Structure & Modes
+ 🧩 Project Structure & Modes
 
 This project is **modular** and can operate in two modes:
 
@@ -32,11 +32,11 @@ This project is **modular** and can operate in two modes:
 |                     | uses `app.py` as the backend to serve answers directly within Slack threads.|
 |                     | Acts as a plug-and-play example of real-world usage.                        |
 
-> ✅ You can integrate `app.py` into any custom frontend, chatbot, or third-party system.
+ ✅ You can integrate `app.py` into any custom frontend, chatbot, or third-party system.
 
 ---
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 | Layer         | Tools/Libs Used                                 |
 |--------------|--------------------------------------------------|
@@ -50,7 +50,7 @@ This project is **modular** and can operate in two modes:
 
 ---
 
-## 📦 Installation & Local Setup
+ 📦 Installation & Local Setup
 
 ### 1. Clone the repo
 ```bash
@@ -97,7 +97,7 @@ You're live!
 
 ---
 
-## ⚙️ Running the Local RAG Engine (No Slack)
+ ⚙️ Running the Local RAG Engine (No Slack)
 
 To test the CLI-based version or integrate with other platforms like Microsoft Teams:
 
@@ -113,7 +113,7 @@ This will:
 
 ---
 
-## 🗃️ File Structure
+ 🗃️ File Structure
 
 ```
 .
@@ -129,7 +129,7 @@ This will:
 
 ---
 
-## 📈 Future Improvements
+ 📈 Future Improvements
 
 * Add streaming generation
 * Deploy via LangServe or Kubernetes
@@ -138,7 +138,13 @@ This will:
 
 ---
 
-## 👨‍💻 Developer
+📹 Demo Video : https://www.loom.com/share/791244f336bb46a08098081f8d325318?sid=12ac826f-1673-48aa-b4ee-e5e48db9866c
+
+
+
+---
+
+ 👨‍💻 Developer
 
 **Utkarsh Singh**
 
@@ -149,7 +155,7 @@ If you found this project helpful, ⭐ the repo and reach out on LinkedIn!
 
 ---
 
-## 📄 License
+ 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
